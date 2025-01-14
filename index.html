@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet Shop</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: bold;
+        color: white;
+      }
+      body {
+        font-family: "Montserrat Subrayada", sans-serif;
+        background-color: #2c2c2c;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 100px;
+        background-color: #333;
+        color: white;
+      }
+
+      .logo {
+        border: 2px solid white;
+        padding: 10px 25px;
+        font-size: 1.5rem;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav ul li {
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .signup {
+        background-color: #f1c40f;
+        padding: 10px 50px;
+        border-radius: 5px;
+      }
+
+      .signup:hover {
+        background-color: #f39c12;
+      }
+
+      main {
+        padding: 20px 100px;
+        display: flex;
+        height: 90vh;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px 100px;
+        border-bottom: 1px solid white;
+      }
+
+      .contentleft {
+        flex: 1;
+      }
+
+      .contentmid {
+        flex: 2;
+      }
+
+      .contentright {
+        flex: 1;
+      }
+
+      .contentmid p {
+        margin-bottom: 20px;
+      }
+
+      .image {
+        max-width: 350px;
+        height: auto;
+        padding-left: 20px;
+      }
+
+      .btn {
+        margin-top: 10px;
+        padding: 15px 30px;
+        color: black;
+        background: white;
+        outline: none;
+        border: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 50px;
+      }
+
+      .btn:hover {
+        background-color: #2c2c2c;
+        color: white;
+        border: 2px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">Planet Shop</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Buy Now</a></li>
+          <li><a href="#">Sell Now</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#" class="signup">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Mercury -->
+    <main>
+      <div class="contentleft">
+        <h2>Mercury</h2>
+
+      </div>
+      <div class="contentmid">
+        <p>
+          Mercury is the first planet from the Sun and the smallest in the Solar
+          System. In English, it is named after the ancient Roman god Mercurius,
+          god of commerce and communication, and the messenger of the gods.
+        </p>
+        <button class="btn">Buy Now</button>
+
+      </div>
+      <div class="contentright">
+        <img src="./mercury.png" class="image" alt="Mercury" />
+      </div>
+    </main>
+
+    <!-- Venus -->
+    <main>
+      <div class="contentleft">
+        <h2>Venus</h2>
+      </div>
+      <div class="contentmid">
+        <p>
+          Venus is the second planet from the Sun. It is named after the Roman
+          goddess of love and beauty. Venus is often called Earth's "sister
+          planet" because of their similar size and mass.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
+      <div class="contentright">
+        <img src="./venus.png" class="image" alt="Venus" />
+      </div>
+    </main>
+
+    <!-- Earth -->
+    <main>
+      <div class="contentleft">
+        <h2>Earth</h2>
+      </div>
+      <div class="contentmid">
+        <p>
+          Earth is the third planet from the Sun and the only astronomical object
+          known to harbor life. Its atmosphere and abundant water make it unique
+          in the Solar System.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
+      <div class="contentright">
+        <img src="./earth.png" class="image" alt="Earth" />
+      </div>
+    </main>
+
+    <!-- Mars -->
+    <main>
+      <div class="contentleft">
+        <h2>Mars</h2>
+      </div>
+      <div class="contentmid">
+        <p>
+          Mars is the fourth planet from the Sun. Known as the "Red Planet," it
+          has a thin atmosphere and is home to the largest volcano in the Solar
+          System.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
+      <div class="contentright">
+        <img src="./mars.png" class="image" alt="Mars" />
+      </div>
+    </main>
+
+    <!-- Jupiter -->
+    <main>
+      <div class="contentleft">
+        <h2>Jupiter</h2>
+      </div>
+      <div class="contentmid">
+        <p>
+          Jupiter is the largest planet in the Solar System. It is a gas giant
+          and has a Great Red Spot, which is a massive storm persisting for
+          centuries.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
+      <div class="contentright">
+        <img src="./jupiter.png" class="image" alt="Jupiter" />
+      </div>
+    </main>
+
+    <!-- Saturn -->
+    <main>
+      <div class="contentleft">
+        <h2>Saturn</h2>
+      </div>
+      <div class="contentmid">
+        <p>
+          Saturn is the sixth planet from the Sun and is best known for its
+          stunning ring system made of ice and rock particles.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
+      <div class="contentright">
+        <img src="./saturn.png" class="image" alt="Saturn" />
+      </div>
+    </main>
+
+    <!-- Uranus -->
+    <main>
+      <div class="contentleft">
+        <h2>Uranus</h2>
+      </div>
+      <div class="contentmid">
+        <p>
+          Uranus is the seventh planet from the Sun and has a blue-green color
+          due to methane in its atmosphere. It rotates on its side, making it
+          unique among the planets.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
+      <div class="contentright">
+        <img src="./uranus.png" class="image" alt="Uranus" />
+      </div>
+    </main>
+
+    <!-- Neptune -->
+    <main>
+      <div class="contentleft">
+        <h2>Neptune</h2>
+      </div>
+      <div class="contentmid">
+        <p>
+          Neptune is the eighth and farthest planet from the Sun. It has a deep
+          blue color and is known for its strong winds and dark spots.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
+      <div class="contentright">
+        <img src="./neptune.png" class="image" alt="Neptune" />
+      </div>
+    </main>
+  </body>
+</html>
